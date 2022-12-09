@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itmo.calculator.MemoryOperationsTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-12-09T15:07:04" hostname="LAPTOP-VV72DSN0" time="0.062">
+  <properties/>
+  <testcase name="zeroConstructorParam1()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.017"/>
+  <testcase name="zeroConstructorParam2()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.0"/>
+  <testcase name="putInMemoryAfterCalculations()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="resetMemoryAfterPutInMemory()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="putInMemoryBeforeCalculations()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="putInMemoryWhichDoesNotExist()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="invalidConstructorParam1()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="invalidConstructorParam2()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="invalidConstructorParam3()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.0"/>
+  <testcase name="resetMemoryBeforeCalculations()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.0"/>
+  <testcase name="resetMemoryWhichDoestNotExist()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.0"/>
+  <testcase name="operationsWithMi()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.001"/>
+  <testcase name="resetMemoryAfterCalculations()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.0"/>
+  <testcase name="testWith100memoryCells()" classname="org.itmo.calculator.MemoryOperationsTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

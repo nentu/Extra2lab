@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itmo.calculator.SimpleOperationsTest" tests="41" skipped="0" failures="0" errors="0" timestamp="2022-12-09T15:07:04" hostname="LAPTOP-VV72DSN0" time="0.069">
+  <properties/>
+  <testcase name="[1] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.019"/>
+  <testcase name="[2] (100,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[3] (250,-1)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (0,-1)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[5] (-5,2)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[6] (-5,3)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[7] (2,40)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[1] (1,5)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[2] (3,2)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[3] (256,256)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (10,2)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[5] (13,1)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[6] (15,5)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[7] (3,7)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[8] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[9] (1,-1)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[1] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[2] (-55,97)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[3] (256,256)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (0,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[5] (400000000,10)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[6] (-400000000,10)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[1] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[2] (-55,97)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[3] (256,256)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (0,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[5] (-2000000000,2000000000)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[6] (2000000000,-2000000000)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[1] (1,5)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[2] (3,-2)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[3] (256,-256)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (10,2)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[5] (13,1)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[6] (15,5)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[7] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[1] (1,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[2] (-55,97)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[3] (256,256)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[4] (0,0)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.001"/>
+  <testcase name="[5] (2000000000,2000000000)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <testcase name="[6] (-2000000000,-2000000000)" classname="org.itmo.calculator.SimpleOperationsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

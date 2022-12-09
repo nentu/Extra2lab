@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.itmo.calculator.AdvancedOperationsTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2022-12-09T15:07:04" hostname="LAPTOP-VV72DSN0" time="0.021">
+  <properties/>
+  <testcase name="[1] (1,1)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[2] (0,0)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[3] (-55,97)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[4] (-13,-7)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[5] (256,256)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[6] (2000000000,2)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[7] (-2000000000,2)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[1] (1,1)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[2] (0,0)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[3] (-55,97)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[4] (-13,-7)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[5] (256,256)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[6] (2000000000,2000000000)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[7] (-2000000000,-2000000000)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[1] (1,1)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[2] (0,0)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[3] (-55,97)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[4] (-13,-7)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[5] (256,256)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.0"/>
+  <testcase name="[6] (2000000000,-2000000000)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <testcase name="[7] (-2000000000,2000000000)" classname="org.itmo.calculator.AdvancedOperationsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
