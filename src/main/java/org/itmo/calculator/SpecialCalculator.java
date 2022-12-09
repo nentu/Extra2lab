@@ -34,13 +34,11 @@ public final class SpecialCalculator {
             String ans = calculateOneExpression(first_expression);
             if (!ans.contains("ERROR")) {
                 expression = String.format("%s %s", ans, tmp[3]);
-
             }
             else {
                 expression = ans;
                 break;
             }
-
         }
         expression = expression.strip();
         this.lastOperation = expression;
@@ -57,6 +55,15 @@ public final class SpecialCalculator {
         }
     }
 
+    private String getOperationNum(String address){
+        if (!address.contains("M")) {
+            return String.valueOf(Long.parseLong(address));
+        }
+        else{
+            return getFromMemory(address.replace("M", ""));
+        }
+    }
+
     private String calculateOneExpression(String expression){
 
         String[] listWords = expression.split(" ", 3);
@@ -64,30 +71,21 @@ public final class SpecialCalculator {
         long num2;
 
         //get num1
-        if (!listWords[0].contains("M")) {
-            num1 = Long.parseLong(listWords[0]);
-        }
-        else{
-            String tmp = getFromMemory(listWords[0].replace("M", ""));
-            if (!tmp.equals("ERROR_1")){
+        {
+            String tmp = getOperationNum(listWords[0]);
+            if (!tmp.equals("ERROR_1")) {
                 num1 = Long.parseLong(tmp);
-            }
-            else return tmp;
+            } else return tmp;
         }
 
         //get Sign
         String sign =  listWords[1];
 
-        //get num2
-        if (!listWords[2].contains("M")) {
-            num2 = Long.parseLong(listWords[2]);
-        }
-        else{
-            String tmp = getFromMemory(listWords[2].replace("M", ""));
-            if (!tmp.equals("ERROR_1")){
+        {
+            String tmp = getOperationNum(listWords[2]);
+            if (!tmp.equals("ERROR_1")) {
                 num2 = Long.parseLong(tmp);
-            }
-            else return tmp;
+            } else return tmp;
         }
 
         String ans = "0";
@@ -114,7 +112,6 @@ public final class SpecialCalculator {
     }
 
     public String resetMemory(int memoryCellIndex) {
-        // напишите здесь код
         if (0 <= memoryCellIndex && memoryCellIndex < memory.length) {
             this.memory[memoryCellIndex] = "0";
             return "0";
